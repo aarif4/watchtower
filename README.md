@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/aarif4/watchtower/master/docs/watchtower-logo.png" alt="Watchtower" width="35%">
+  <img src="https://raw.githubusercontent.com/aarif4/watchtower/master/docs/watchtower-logo.png" alt="Watchtower" width="25%">
   <br>Watchtower<br>
 </h1>
 
