@@ -1,0 +1,16 @@
+---
+# source template
+- id: "yourCustomSource"
+  url: ""
+  site_type: 1
+  search_bar: ''
+  search_meta: ''
+  search_next_page: ''
+  target_series: ''
+  show_more: ''
+  next_page: ''
+  content_author: ''
+  content_list: ''
+  content_title: ''
+  content: ''
+  content_concat: ''

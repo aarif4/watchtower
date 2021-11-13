@@ -1,0 +1,21 @@
+---
+mode: "default"
+executable: ""
+series:
+  - title: "TitleName"
+    type: "novel"
+    source: "quotes"
+    meta: ""
+    savepath: "/path/to/output"
+    chapters:
+      start: 0
+      stop: 24
+    volumes:
+      - name: ""
+        photos:
+          front_cover: "/path/to/output/cover.png"
+          illustration: ""
+          map: ""
+        chapters:
+          start: 0
+          stop: 24
