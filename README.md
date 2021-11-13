@@ -8,6 +8,10 @@
 
 <p align="center">
 <!-- add info on the state of the project (coding quality, etc)-->
+  
+  <a href="https://github.com/aarif4/watchtower/blob/main/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/github/license/aarif4/watchtower">
+    </a>
 </p>
 
 ## Features
