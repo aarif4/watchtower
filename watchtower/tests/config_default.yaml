@@ -2,20 +2,22 @@
 mode: "default"
 executable: ""
 series:
-  - title: "TitleName"
+  - title: "Alice In Wonderland"
+    authors:
+    - "Lewis Carroll"
     type: "novel"
     source: "quotes"
     meta: ""
-    savepath: "/path/to/output"
+    savepath: "./out/"
     chapters:
       start: 0
-      stop: 24
+      stop: 15
     volumes:
       - name: ""
         photos:
-          front_cover: "/path/to/output/cover.png"
+          front_cover: "./watchtower/tests/aiw.jpg"
           illustration: ""
           map: ""
         chapters:
           start: 0
-          stop: 24
+          stop: 15

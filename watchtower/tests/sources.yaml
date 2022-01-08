@@ -1,8 +1,8 @@
 ---
 # source template
-- id: "yourCustomSource"
-  url: ""
-  site_type: 1
+- id: "AliceInWonderlandSource"
+  url: "https://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/"
+  site_type: 2
   search_bar: ''
   search_meta: ''
   search_next_page: ''
@@ -10,7 +10,7 @@
   show_more: ''
   next_page: ''
   content_author: ''
-  content_list: ''
-  content_title: ''
-  content: ''
+  content_list: '//*/main/article/div[@class="black-list"]/ul/li/a'
+  content_title: '//*/main/article/header/h1'
+  content: '//*/main/article/p'
   content_concat: ''
