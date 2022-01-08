@@ -89,7 +89,9 @@ class config:
                 txt = 'series #%d already exists' % (idx)
                 self.logger.error("%s::" % (errno, txt))
                 raise Exception("%s::" % (errno, txt))
-    
+            
+            authors = self.parse_authors(user_series_list)
+            
             source_type = self.parse_type(val)
 
             meta = self.parse_meta(val)
@@ -108,6 +110,7 @@ class config:
             
             series.append(dict(\
                 title=title, \
+                authors=authors, \
                 type=source_type, \
                 meta=meta, \
                 source=source, \
@@ -265,6 +268,12 @@ class config:
             return exec['mode']
         else:
             return ''
+
+    def parse_authors(self, authors):
+        if 'executable' in exec:
+            return authors['authors']
+        else:
+            return ['']
 
     def get_dict(self):
         return dict(sources=self.sources, mode=self.mode, series=self.series_info, executable=self.executable)
