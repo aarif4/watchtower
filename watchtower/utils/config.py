@@ -270,7 +270,7 @@ class config:
             return ''
 
     def parse_authors(self, authors):
-        if 'executable' in exec:
+        if 'content_author' in authors:
             return authors['authors']
         else:
             return ['']
