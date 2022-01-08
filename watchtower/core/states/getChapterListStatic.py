@@ -14,8 +14,11 @@ def getChapterListStatic(data, logger): # TODO
     driver.get(data['url'])
 
     author_str = []
-    for elet in driver.find_elements_by_xpath(source['content_author']):
-        author_str.append(elet.text)
+    if not source['content_author']:
+        author_str = data['series']['authors']
+    else:
+        for elet in driver.find_elements_by_xpath(source['content_author']):
+            author_str.append(elet.text)
     # if it's nonempty, return it in an item to save to file
     # TODO: Make the saved filename something that's in a constants.py file
     data['items'] = [ \
