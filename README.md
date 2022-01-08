@@ -8,7 +8,7 @@
 
 <p align="center">
 <!-- add info on the state of the project (coding quality, etc)-->
-  
+
   <a href="https://github.com/aarif4/watchtower/blob/main/LICENSE">
         <img alt="GitHub" src="https://img.shields.io/github/license/aarif4/watchtower">
     </a>
@@ -17,7 +17,7 @@
 ## Features
 
 <!-- 5-10 unique features -->
-- Given a link, it can interact with the site and find a list of chapters/content to scrape
+- Can interact with a site and capture a list of content to scrape
 - Can search on behalf of the user to find many series from the same site
 - On reruns it will only target missing chapters
 - Package text content into an EPUB that works on Apple and Android
@@ -31,7 +31,7 @@ Documentations can be found on the [wiki](www.google.com) (TODO)
 Please refer to [the wiki](www.google.com) (TODO)
 
 ## License
-Watchtower is released under the GNU General Public License version 3. See [LICENSE.txt](www.google.com) (TODO)
+Watchtower is released under the GNU General Public License version 3. See [LICENSE.txt](https://github.com/aarif4/watchtower/blob/main/LICENSE) (TODO)
 
 ## Credit
 
